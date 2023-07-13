@@ -1,12 +1,12 @@
 #!/bin/bash
 # Set variable values
 source ./.env
-INSTANCE="${INSTANCE:=gvb-mongo}"
-HOSTNAME="${HOSTNAME:=gvb-mongo.demo.redislabs.com}"
+INSTANCE="${INSTANCE:=xxx-mongo}"
+HOSTNAME="${HOSTNAME:=xxx-mongo.demo.redislabs.com}"
 PROJECT="${PROJECT:=central-beach-194106}"
 MACHINE_TYPE="${MACHINE_TYPE:=n1-standard-1}"
 ZONE="${ZONE:=europe-west2-c}"
-SUBNET="${SUBNET:=gvb-vpc}"
+SUBNET="${SUBNET:=xxx-vpc}"
 SERVICE_ACCOUNT="${SERVICE_ACCOUNT:=319143195410-compute@developer.gserviceaccount.com}"
 MONGO_ADMIN="${MONGO_ADMIN:=myAdmin}"
 PASSWORD=${PASSWORD}
