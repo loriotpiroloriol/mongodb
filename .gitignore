@@ -1,0 +1,10 @@
+#Generated files
+/create_user.mongodb
+/rs_initiate.mongodb
+/startup-mongo.sh
+
+#Confidential data
+/.env
+
+#OS files
+.DS_Store

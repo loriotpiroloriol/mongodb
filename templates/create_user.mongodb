@@ -1,0 +1,11 @@
+db = connect('mongodb://localhost/admin');
+
+db.createUser(
+  {
+    user: "<MONGO_ADMIN>",
+    pwd: "<PASSWORD>",
+    roles: [
+      "root"
+    ]
+  }
+)
